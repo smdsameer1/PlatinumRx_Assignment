@@ -55,8 +55,14 @@ Contains 2 sheets: `ticket` and `feedbacks`
 - cms_id  
 
 ### Added Helper Columns:
-#### **same_day**
+ #### **same_day**
 ```excel
 =IF(INT(B2)=INT(C2),"Yes","No")
+
+                 ### Added Helper Columns:
+               #### **same_hour**
+```excel
+
+=IF(AND(INT(B2)=INT(C2), HOUR(B2)=HOUR(C2)), "Yes", "No")
 
 
