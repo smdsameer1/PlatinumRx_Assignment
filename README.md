@@ -109,3 +109,27 @@ This pulls the ticket creation timestamp via cms_id.
 - Q2(a): Tickets created & closed on the same day
 - Q2(b): Tickets created & closed in the same hour
 
+### 🐍 3. Python Section
+### ✔ File: 01_Time_Converter.py
+
+Converts minutes into human-readable form (hrs + minutes).
+Accepts user input.
+
+### **Example: **
+```excel
+Input: 130
+Output: 2 hrs 10 minutes
+```
+
+### ✔ File: 02_Remove_Duplicates.py
+
+Removes duplicate characters using a loop.
+Preserves order of first occurrence.
+
+### **Example: **
+```excel
+Input: banana
+Output: ban
+```
+
+Both Python programs executed successfully.
