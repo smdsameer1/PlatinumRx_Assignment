@@ -71,4 +71,9 @@ Contains 2 sheets: `ticket` and `feedbacks`
 =IF(AND(INT(B2)=INT(C2), HOUR(B2)=HOUR(C2)), "Yes", "No")
 
 ```
+These determine:
+
+- whether created_at and closed_at fall on the same day
+
+- whether both fall in the same hour of the same day
 
