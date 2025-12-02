@@ -89,3 +89,23 @@ These determine:
 ```
 This pulls the ticket creation timestamp via cms_id.
 
+
+### 🟧 Summary (Outlet-Wise Counts)
+
+### Computed using:
+
+### **✔ Same Day Count: **
+```excel
+=COUNTIFS(ticket!$D:$D, $A2, ticket!$F:$F, "Yes")
+```
+
+### **✔ Same Hour Count: **
+```excel
+=COUNTIFS(ticket!$D:$D, $A2, ticket!$G:$G, "Yes")
+```
+
+### This fulfills:
+
+- Q2(a): Tickets created & closed on the same day
+- Q2(b): Tickets created & closed in the same hour
+
