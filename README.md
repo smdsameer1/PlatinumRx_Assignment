@@ -77,3 +77,14 @@ These determine:
 
 - whether both fall in the same hour of the same day
 
+## 🟩 Sheet: `feedbacks`
+### Column Filled:
+
+### ticket_created_at
+
+Formula used:
+=INDEX(ticket!$B:$B, MATCH(A2, ticket!$E:$E, 0))
+
+
+This pulls the ticket creation timestamp via cms_id.
+
