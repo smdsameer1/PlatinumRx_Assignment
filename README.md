@@ -94,12 +94,12 @@ This pulls the ticket creation timestamp via cms_id.
 
 ### Computed using:
 
-### **✔ Same Day Count: **
+### **✔ Same Day Count:**
 ```excel
 =COUNTIFS(ticket!$D:$D, $A2, ticket!$F:$F, "Yes")
 ```
 
-### **✔ Same Hour Count: **
+### **✔ Same Hour Count:**
 ```excel
 =COUNTIFS(ticket!$D:$D, $A2, ticket!$G:$G, "Yes")
 ```
@@ -115,7 +115,7 @@ This pulls the ticket creation timestamp via cms_id.
 Converts minutes into human-readable form (hrs + minutes).
 Accepts user input.
 
-### **Example: **
+### **Example:**
 ```excel
 Input: 130
 Output: 2 hrs 10 minutes
@@ -126,7 +126,7 @@ Output: 2 hrs 10 minutes
 Removes duplicate characters using a loop.
 Preserves order of first occurrence.
 
-### **Example: **
+### **Example:**
 ```excel
 Input: banana
 Output: ban
