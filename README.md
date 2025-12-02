@@ -82,9 +82,10 @@ These determine:
 
 ### ticket_created_at
 
-Formula used:
+### **Formula used:**
+```excel
 =INDEX(ticket!$B:$B, MATCH(A2, ticket!$E:$E, 0))
 
-
+```
 This pulls the ticket creation timestamp via cms_id.
 
